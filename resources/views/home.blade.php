@@ -96,7 +96,7 @@
                                             </div> 
                                             <div class="form-group col-md-12">
                                                 <label>Birth Date:</label>
-                                                <input type="text" class="form-control{{ $errors->has('birth_date') ? ' is-invalid' : '' }}" name="birth_date" value="" >
+                                                <input type="date" class="form-control{{ $errors->has('birth_date') ? ' is-invalid' : '' }}" name="birth_date" value="" >
                                                 @if ($errors->has('birth_date'))
                                                 <span class="invalid-feedback" role="alert">
                                                     <strong>{{ $errors->first('birth_date') }}</strong>

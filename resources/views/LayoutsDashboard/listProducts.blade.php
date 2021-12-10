@@ -35,8 +35,8 @@
                                 </thead>
                                 <tbody>
                                     @if ($count == 0)
-                                        <tr colspan="9">
-                                            <td>No Records</td>
+                                        <tr>
+                                            <td colspan="10">No Records</td>
                                         </tr>
                                     @else
                                         @foreach($products as $i)
